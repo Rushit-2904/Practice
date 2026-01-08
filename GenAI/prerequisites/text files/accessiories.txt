@@ -1,0 +1,4 @@
+Logic Rule (ACC-01): ZT (0-10V Dimming) logic: If present, add Control Wire Pair (Purple/Pink 18AWG). 
+Logic Rule (ACC-02): RDCY (Emergency) logic: Requires a dedicated un-switched "hot" lead. 
+Ancillary Component (ACC-AC1): RDCY triggers addition of: 90-Min Battery Pack (BATT-EM), Test Switch (TS-01), and Charging Indicator.
+Logic Rule (ACC-03): 50K (Daylight) tokens require Cool-Tone Diffusers (LNS-CT) to maintain color fidelity at the edges. Ancillary Component (ACC-AC2): APDT12 (12-Min Timer) requires an Interval Logic Controller (ILC-12).

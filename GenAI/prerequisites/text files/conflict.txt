@@ -1,0 +1,29 @@
+Section 1: Thermal & Finish Conflicts
+
+Conflict [C-01]: If LMF > 1000 and BLKT finish is present, internal ambient temperature increases by 5°C. 
+Resolution: Increase Thermal Budget by 15% (compounding the 12% CRI-Heat offset)
+
+Conflict [C-02] (Outdoor High-Heat): If LMF > 1000 and FIN-AC1 (WCR/WHTCY) is present , the Pressure Equalization Vents must be upgraded to High-Flow Industrial Grade to prevent gasket failure under high thermal expansion.
+Section 2: Electrical & Sensor Compatibility
+
+Conflict [C-03]: If 347V is present and any sensor (SCT, PIRS, etc.) is detected:
+Resolution: Force-add Step-Down Autotransformer (XFMR-347).
+
+Conflict [C-04] (MVOLT Surge Protection): If VOLT-01 (MVOLT) or 277V+ is present , the assembly must include an Internal Surge Protector Module (SP-10KV) to comply with UL 1598.
+
+
+Section 3: Mechanical & Shape Constraints
+
+Conflict [C-05]: If shape is TRI, TPP, LPP, or ZPP AND Dimension > 8FT:
+Resolution: Add Corner Splice Plates (SP-60/90) AND Center Support Aircraft Cable (AC-MID).
+
+Conflict [C-06] (Zig-Zag Precision): If shape is ZPP , the system must ignore standard linear mounting and force-add Reinforced Pivot Joints (PJ-REIN) at every 45-degree vertex.
+Section 4: Control Protocol Logic
+
+Conflict [C-07] (Emergency + Dimming): If ACC-02 (RDCY) and ACC-01 (ZT) are both present:
+Requirement: The 90-Min Battery Pack (BATT-EM) must be compatible with 0-10V dimming bypass to ensure full light output during a power failure.
+
+Conflict [C-08] (Precision Dimming): If SNS-02 (MIN1) is present , it overrides any standard driver triggered by LMF or VOLT tokens.
+Resolution: Force-select Architectural Dimming Driver (DRV-ARC-1)
+
+Conflict [C-09]: If CCT = 50K AND Finish = BLKT, add high-conductivity Thermal Interface Material (TIM-HC)

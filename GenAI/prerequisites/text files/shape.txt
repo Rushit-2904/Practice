@@ -1,0 +1,4 @@
+Logic Rule (SHP-01): TRI, TPP, LPP, ZPP (Angular Shapes) require mitered cuts and Corner Splice Plates (SP-60/90). 
+Logic Rule (SHP-02): CIRC / OCT shapes require High-Flex Polycarbonate Diffusers (LNS-FLX).
+Ancillary Component (SHP-AC1): If any Dimension > 8FT, add Center Support Aircraft Cable (AC-MID).
+Ancillary Component (SHP-AC2): For ZPP shapes, add Reinforced Pivot Joints (PJ-REIN).

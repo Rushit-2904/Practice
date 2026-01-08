@@ -1,0 +1,4 @@
+Logic Rule (VOLT-01): MVOLT tokens require "Universal Drivers" with Active Power Factor Correction (PFC). 
+Ancillary Component (VOLT-AC1): All MVOLT and 277V+ assemblies require Internal Surge Protector Modules (SP-10KV). 
+Ancillary Component (VOLT-AC2): Fixed voltage (120V/277V) requires Standard Grounding (GRND-01). 
+Ancillary Component (VOLT-AC3): MVOLT requires Shielded Grounding Kit (GRND-SHLD).

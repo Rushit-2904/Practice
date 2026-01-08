@@ -1,0 +1,2 @@
+Ancillary Component (MNT-AC1): F2/72A token (Fixed 72" Aircraft Cable) requires Griplock Connectors (GL-01) and Ceiling Canopy Kit (CPY-WH). Logic Rule (MNT-01): For Recessed (RPP) mounting in T-Grid ceilings, add Safety T-Bar Clips (TBC-04). 
+Logic Rule (MNT-02): Any individual segment (A, B, C, D, or E) exceeding 8FT (96INCH) triggers the addition of a Mid-Span Support Kit (MS-KIT)

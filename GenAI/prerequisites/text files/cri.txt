@@ -1,0 +1,3 @@
+Logic Rule (CRI-01): CRI 90-100 reduces total Lumen output by ~15%. 
+Ancillary Component (CRI-AC1): If CRI > 95, use Violet-Pump LED Chips and High-Transmittance Lenses (LNS-HT).
+Logic Rule (CRI-02): CRI > 90 combined with 27K (Warm White) increases current draw by 5%; verify driver amperage capacity.
